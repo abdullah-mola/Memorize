@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MemorizeActivity">
+
+    <EditText
+        android:id="@+id/edit_text_language1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text in Language 1" />
+
+    <EditText
+        android:id="@+id/edit_text_language2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text in Language 2" />
+
+    <EditText
+        android:id="@+id/edit_text_pronunciation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter German Pronunciation" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+    <ListView
+        android:id="@+id/list_view_memorize"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
